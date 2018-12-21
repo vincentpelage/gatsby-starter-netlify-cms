@@ -11,6 +11,7 @@ export const ProductPageTemplate = ({
   image,
   title,
   heading,
+  body,
   description,
   intro,
   main,
@@ -51,7 +52,7 @@ export const ProductPageTemplate = ({
                   <h3 className="has-text-weight-semibold is-size-2">
                     {heading}
                   </h3>
-                  <p>{description}</p>
+                  <p>{body}</p>
                 </div>
               </div>
               <Features gridItems={intro.blurbs} />
@@ -188,7 +189,7 @@ export const productPageQuery = graphql`
             text
           }
           heading
-          description
+          body
         }
         main {
           heading

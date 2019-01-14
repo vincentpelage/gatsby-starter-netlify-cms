@@ -39,6 +39,18 @@ collections:
             }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+      - file: "src/pages/test/test1.md"
+        label: "Test1"
+        name: "test1"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "src/pages/test/test2.md"
+        label: "Test2"
+        name: "test2"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"

@@ -2,7 +2,6 @@
 templateKey: "test"
 path: /test
 title: test 1
-linkedMarkdownFile: "test2.md"
 ---
 
 <div class="test1">
